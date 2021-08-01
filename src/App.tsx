@@ -1,7 +1,13 @@
-import { FC } from 'react';
+import { FC, Suspense } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import BaseRouter from './BaseRouter';
 
 const App: FC = () => (
-  <h1>E-commerce</h1>
+  <Suspense fallback="">
+    <BrowserRouter>
+      <BaseRouter />
+    </BrowserRouter>
+  </Suspense>
 );
 
 export default App;
