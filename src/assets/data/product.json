@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "key": 1,
+            "name": "Crab Pool Security",
+            "price": 30.00,
+            "img": "feature-1.jpg"
+        }, 
+        {
+            "key": 2,
+            "name": "Crab Pool Security",
+            "price": 30.00,
+            "img": "feature-2.jpg"
+        },
+        {
+            "key": 3,
+            "name": "Crab Pool Security",
+            "price": 30.00,
+            "img": "feature-3.jpg"
+        },
+        {
+            "key": 4,
+            "name": "Crab Pool Security",
+            "price": 30.00,
+            "img": "feature-4.jpg"
+        }
+    ],
+    "total": 4
+}

@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
     'react/prop-types': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
   },
   settings: {
     'import/resolver': {
